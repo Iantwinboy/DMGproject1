@@ -40,20 +40,20 @@ const App = () => {
                 React.createElement(CardGroup.Title, null, "Title"),
                 React.createElement(CardGroup.Text, null, "FILLER")),
             React.createElement(CardGroup, null,
-                React.createElement(CardGroup.Title, null, "Image on the bottom"),
+                React.createElement(CardGroup.Title, null, "Bottom"),
                 React.createElement(CardGroup.Text, null,
-                    "Go ahead and put your image somewhere else",
+                    "On the bottom of the holder now",
                     " "),
                 React.createElement(CardGroup.Image, { src: IMAGE_URL })),
             React.createElement(CardGroup, { variant: "yellow" },
                 React.createElement(CardGroup.Title, null, "Image in the middle"),
                 React.createElement(CardGroup.Image, { src: IMAGE_URL }),
-                React.createElement(CardGroup.Text, null, "I think I have made the point by now. This is very flexible! Also, this one has a different variant passed from the context.")),
+                React.createElement(CardGroup.Text, null, "Different discrepancy used here.")),
             React.createElement(CardGroup, null,
                 React.createElement(CardGroup.Image, { src: IMAGE_URL }),
-                React.createElement(CardGroup.Title, null, "Add other components"),
+                React.createElement(CardGroup.Title, null, "Components"),
                 React.createElement(CardGroup.Text, null, "You can also add whatever other component"),
                 React.createElement("div", null,
-                    React.createElement("button", { className: "text-indigo-500 p-4 hover:text-indigo-800" }, "Go somewhere"))))));
+                    React.createElement("button", { className: "text-indigo-500 p-4 hover:text-indigo-800" }, "Click Me"))))));
 };
 ReactDOM.render(React.createElement(App, null), document.getElementById("app"));
